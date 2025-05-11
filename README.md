@@ -3,7 +3,7 @@ local RunService = game:GetService("RunService")
 local Camera = workspace.CurrentCamera
 local LocalPlayer = Players.LocalPlayer
 
-local MAX_ANGLE = 5
+local MAX_ANGLE = 15
 
 local function getLookedAtPlayer()
 	for _, player in ipairs(Players:GetPlayers()) do
